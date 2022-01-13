@@ -1,0 +1,27 @@
+.projects{
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projectLogo{
+    color: rgb(83, 81, 81);
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.projectList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

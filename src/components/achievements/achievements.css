@@ -1,0 +1,23 @@
+.achievements{
+    margin: 20px;
+}
+
+.achievementTitle{
+    color: rgb(83, 81, 81);
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.achievementWrapper{
+    padding: 20px 30px;
+    -webkit-box-shadow: 0px 0px 27px 8px rgba(98,98,98,0.43); 
+    box-shadow: 0px 0px 27px 8px rgba(98,98,98,0.43);
+    border-radius: 10px;
+    background-color: rgb(209, 99, 9);
+    color: white;
+}
+
+.achievement{
+    font-weight: 700;
+    margin: 10px 0;
+}

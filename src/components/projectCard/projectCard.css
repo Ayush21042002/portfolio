@@ -1,0 +1,49 @@
+.projectCard{
+    margin: 20px 0;
+    min-height: 450px;
+    max-height: fit-content;
+    max-width: 400px;
+    width: fit-content;
+    min-width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 27px 8px rgba(48, 47, 47, 0.43); 
+    box-shadow: 0px 0px 27px 8px rgba(48, 47, 47, 0.43);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.projectImg{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid white;
+    object-fit: fill;
+}
+
+.projectTitle{
+    margin: 10px 0;
+    font-size: 24px;
+    color: white;
+}
+
+.projectTechs{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    object-fit: contain;
+}
+
+.stack{
+    background-color: rgba(145, 134, 134, 0.5);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: 3px;
+}
